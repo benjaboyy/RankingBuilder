@@ -11,6 +11,11 @@ const routes = [
         path: '/list',
         name: 'list',
         component: () => import(/* webpackChunkName: "submit" */ '../views/ListView.vue')
+    },
+    {
+        path: '/submit',
+        name: 'submit',
+        component: () => import(/* webpackChunkName: "submit" */ '../views/SubmitView.vue')
     }
 ]
 

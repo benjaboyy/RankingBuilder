@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <button class="btn btn-primary float-end">Add entree</button>
+    <router-link to="/submit" class="btn btn-primary float-end">Add entree</router-link>
     <h1>Cheese</h1>
     <h3>All the cheese you need to try</h3>
     <div v-for="item in ListItems" class="card mt-3">
@@ -16,6 +16,7 @@
             <h5 class="card-title">{{ item.name }}</h5>
             <p class="card-text">{{ item.description }}</p>
             <p class="card-text"><small class="text-muted">Last updated: {{ item.date }}</small></p>
+            <button class="btn btn-primary">Edit</button>
           </div>
         </div>
       </div>
