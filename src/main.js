@@ -1,4 +1,6 @@
 import './assets/bootstrap.css'
+import { library } from '@fortawesome/fontawesome-svg-core'
+
 
 import { createApp } from 'vue'
 import App from './App.vue'

@@ -5,8 +5,8 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <form class="container">
         <router-link to="/" class="navbar-brand me-auto" href="#">Ranking builder</router-link>
-        <button class="btn btn-sm btn-outline-light me-2" type="button">Add ranking</button>
-        <button class="btn btn-sm btn-outline-light" type="button">Smaller button</button>
+        <button class="btn btn-sm btn-primary me-2" type="button">Add ranking</button>
+        <button class="btn btn-sm btn-link text-white" type="button">Logout</button>
       </form>
   </nav>
 
@@ -28,7 +28,6 @@
 </template>
 
 <script>
-import RadarChart from './components/RadarChart.vue'
 export default {
   name: 'App',
 }
